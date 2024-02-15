@@ -1,0 +1,92 @@
+/* Import Google Font cdn link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+    background: linear-gradient(to left, #FF5F6D, #FFC371);
+    justify-content: center;
+}
+
+.converter-container {
+    text-align: center;
+}
+
+label, input {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.site-header{
+    background-color: #2e2e2e;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-container img{
+    height: 40px;
+}
+
+.logo-container {
+    margin-right: auto;
+}
+
+.nav-menu {
+    margin-left: auto;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li{
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container input{
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.search-container button i {
+    color: #ffffff;
+}

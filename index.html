@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="icon" href="/assets/temp converter logo.png" type="image/png">
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-z5GT5g1F9lLZQ56g+8zNUmcx8Px9er+Ug8sI4bxm8e5VGsyZLTI+bNK9i9ZIAV2gvyzcmvcw0bhihO/Bt7C00w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="/assets/temp converter logo.png" alt="Temperature Converter Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <!-- CONTENT -->
+    
+        <h1>Temperature Converter</h1>
+
+        <div class="converter-container">
+            <label for="inputTemperature">Input Temperature:</label>
+            <input type="text" id="inputTemperature" placeholder="Enter temperature" oninput="updateResult()">
+            
+            <label for="result">Result:</label>
+            <input type="text" id="result" readonly>
+            
+            <div class="button-container">
+                <button onclick="convertTemperature()">Convert</button>
+                <button onclick="reverseConversion()">Reverse</button>
+            </div>
+        </div>
+
+        
+
+    <script src="/js/script.js"></script>
+
+    <!-- FOOTER -->
+</body>
+</html>
